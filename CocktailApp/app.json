@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "CocktailApp",
+    "slug": "CocktailApp",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./src/img/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.alexmj007.CocktailApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9294beaf-800e-447b-a3ad-0d82c086a68b"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9294beaf-800e-447b-a3ad-0d82c086a68b"
+    }
+  }
+}
